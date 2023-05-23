@@ -72,7 +72,7 @@ O OtakuFlix foi desenvolvido por Alan Ferreira. Você pode encontrar mais inform
 ## Considerações de uso
 
 O projeto em sua Home, tem um sistema de criação de conta e Login.
-Para logar basta ir em criar conta, colocar um nome de usuário, um email e uma senha de 8 digitos.
+Para logar basta ir em criar conta, colocar um nome de usuário, um email e uma senha.
 Aṕos isso vc fará login na aplicação que abrirá um poster com alguns animes, e em cada um, um botão 'More Info', nesse botão vc pode clicar e abrirá em outra tela um resumo do anime, com datas, sinopse, trailer e alguns dados.
 O Header possui uma navbar que está ativa somente no botão de logout, para sair da aplicação, o resto é apenas ilustrativo.
 
