@@ -5,6 +5,7 @@ import { BellIcon, SearchIcon, ChevronDownIcon } from 'lucide-react'
 import AccountMenu from './AccountMenu'
 import NavbarItem from './NavBarItem'
 import MobileMenu from './MobileMenu'
+import Link from 'next/link'
 
 const TOP_OFFSET = 66
 
@@ -44,9 +45,9 @@ const Navbar = () => {
           showBackground ? 'bg-zinc-900 bg-opacity-90' : ''
         }`}
       >
-        <a href="/dashboard">
+        <Link href="/dashboard">
           <img src="/images/logo.png" alt="Logo" width={100} height={100} />
-        </a>
+        </Link>
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
           <NavbarItem label="Home" active />
           <NavbarItem label="Series" />
